@@ -1,0 +1,96 @@
+main{
+    
+    justify-content: center;
+    align-content: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(47, 0, 135);
+    height: 100px;
+}
+
+.toDo-container{
+    background-color: rgb(194, 157, 157);
+    color: black;
+    padding: 20px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 30px; 
+    box-shadow: 3px 3px 3px gray;  
+}
+
+li{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* same as 16px */
+    background-color: #d6c8c8;
+    box-shadow: 3px 3px 3px gray;
+    padding-left: 2rem;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(13, 102, 43);
+    text-shadow: 2px 2px 2px black;
+}
+
+.btn-add{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-add:hover{
+    background-color: rgb(92, 180, 196);
+    color: black;
+}
+
+.btn-erase{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-erase:hover{
+    background-color: rgb(92, 180, 196);
+    color: black;
+}
+
+
+div.Registrate-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    background-color: gray;
+    padding: 50px;
+    margin-bottom: 50px;
+    
+}
+div.toDo-container{
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-items: center;
+    margin-top: 35px;
+    margin-left: 30%;
+}
+
+input.input-toDo{
+    border-radius: 25px;
+}
